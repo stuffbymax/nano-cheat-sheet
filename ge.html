@@ -9,23 +9,56 @@
 </head>
 
 <body>
-<body>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-</style>
-<ul>
+  <style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  
+  </style>
+  <div class="sidenav">
+  <ul>
     <li><a href="index.html">CZ</a>
     <li><a href="sk.html">SK</a>
-      <li><a href="pl.html">PL</a>
+    <li><a href="pl.html">PL</a>
     <li><a href="ge.html">DE</a>
   </ul>
+  </div>
+
     <br>
     <h4 align="center"> Dies ist eine inoffizielle Übersetzung </h4>
     <h4 align="center"> this is unofficial translation </h4>
