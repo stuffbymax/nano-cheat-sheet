@@ -19,6 +19,7 @@ german ❌
 
 
 meanings
+-
 yes ✅
 no❌
 maybe 🟨
