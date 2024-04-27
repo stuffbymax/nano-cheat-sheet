@@ -26,6 +26,8 @@ german ❌
 
 arabic ❌
 
+english ✅
+
 
 meanings
 -
