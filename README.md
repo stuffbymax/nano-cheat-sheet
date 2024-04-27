@@ -3,6 +3,14 @@ this is unoffical website translation for czech, polish, slovakian ,german, arab
 why i am making this translation?
 because not everybody knows english
 
+what languages i will add
+-
+ukrain
+
+romanian
+
+hungaryan
+--
 
 verified languages
 -
