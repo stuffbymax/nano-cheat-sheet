@@ -2,5 +2,14 @@ this is unoffical website translation for czech, polish, slovakian ,german, lagu
 
 why i am making this translation?
 because not everybody knows english
-------
+
+verfied languages
+
+czech ✅
+slovak ✅
+polish ❌
+russian❌
+german ❌
+
+
 
