@@ -11,6 +11,8 @@ romanian
 
 hungaryan
 
+french
+
 
 verified languages
 -
