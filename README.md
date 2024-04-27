@@ -10,7 +10,7 @@ czech ✅
 
 slovak ✅
 
-polish ❌
+polish 🟨
 
 russian❌
 
@@ -18,3 +18,7 @@ german ❌
 
 
 
+meanings
+yes ✅
+no❌
+maybe 🟨
