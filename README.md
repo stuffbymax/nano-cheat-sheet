@@ -1,3 +1,7 @@
+was is this project
+-
+this project was originaly made only for czech language but i was bored so
+
 this is unoffical website translation for czech, polish, slovakian ,german, arabic and more laguages.
 
 why i am making this translation?
