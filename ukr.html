@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0055)https://www.nano-editor.org/dist/latest/cheatsheet.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Шпаргалка для GNU nano</title>
+
+<meta name="description" content="A concise overview of the command shortcuts for nano, the editor, grouped by category.">
+<meta name="keywords" content="cheatsheet, nano, editor, shortcuts, keystrokes, functions, operations, commands">
+<meta name="author" content="Benno Schulenberg">
+</head>
+
+<body>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        .sidenav {
+          height: 100%;
+          width: 200px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #000000;
+          overflow-x: hidden;
+          padding-top: 20px;
+        }
+        
+        .sidenav a {
+          padding: 6px 6px 6px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .main {
+          margin-left: 200px; /* Same as the width of the sidenav */
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        
+        
+        </style>
+        <div class="sidenav">
+          <ul>
+            <a href="index.html">CZ</a>
+            <a href="en.html">EN</a>
+            <a href="sk.html">SK</a>
+            <a href="pl.html">PL</a>
+            <a href="ge.html">DE</a>
+            <a href="ru.html">RU</a>
+            <a href="ukr.html">Ua</a>
+            <a href="شبكة.html">شبكة</a>
+            <a href="verification ukr.html">перевірка мови</a>
+          </ul>
+          </div>
+<br>
+<h1 align="center">Це неофіційний переклад<h1>
+<h1 align="center">Огляд ярликів nano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+<h3 align="center">Клавіші редактора та їх функції &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+<br>
+
+<table align="center"><tbody>
+<tr><td>
+
+<b>Обробка файлів</b>
+<table><tbody>
+<tr><td>Ctrl+S &nbsp;&nbsp;</td><td>Зберегти поточний файл</td></tr>
+<tr><td>Ctrl+O</td><td>Запропонувати записати файл ("Зберегти як")</td></tr>
+<tr><td>Ctrl+R</td><td>Вставити файл у поточний</td></tr>
+<tr><td>Ctrl+X</td><td>Закрити буфер, вийти з nano</td></tr>
+</tbody></table>
+<br>
+
+<b>Редагування</b>
+<table><tbody>
+<tr><td>Ctrl+K &nbsp;&nbsp;</td><td>Вирізати поточний рядок у буфер вирізання</td></tr>
+<tr><td>Alt+6</td><td>Копіювати поточний рядок у буфер вирізання</td></tr>
+<tr><td>Ctrl+U</td><td>Вставити вміст буфера вирізання</td></tr>
+<tr><td>Alt+T</td><td>Виріжте до кінця буфера</td></tr>
+<tr><td>Ctrl+]</td><td>Повне поточне слово</td></tr>
+<tr><td>Alt+3</td><td>Коментувати/розкоментувати рядок/область</td></tr>
+<tr><td>Alt+U</td><td>Скасувати останню дію</td></tr>
+<tr><td>Alt+E</td><td>Повторити останню скасовану дію</td></tr>
+</tbody></table>
+<br>
+
+<b>Пошук і заміна</b>
+<table><tbody>
+<tr><td>Ctrl+Q &nbsp;&nbsp;</td><td>Почніть пошук у зворотному напрямку</td></tr>
+<tr><td>Ctrl+W</td><td>Почніть пошук вперед</td></tr>
+<tr><td>Alt+Q</td><td>Знайти наступне входження назад</td></tr>
+<tr><td>Alt+W</td><td>Знайти наступне входження вперед</td></tr>
+<tr><td>Alt+R</td><td>Почніть сеанс заміни</td></tr>
+</tbody></table>
+<br>
+
+<b>Видалення</b>
+<table><tbody>
+<tr><td>Ctrl+H</td><td>Видалити символ перед курсором &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td>Ctrl+D</td><td>Видалити символ під курсором</td></tr>
+<tr><td>Alt+Bsp</td><td>Видалити слово ліворуч</td></tr>
+<tr><td>Ctrl+Del &nbsp;&nbsp;</td><td>Видалити слово праворуч</td></tr>
+<tr><td>Alt+Del</td><td>Видалити поточний рядок</td></tr>
+</tbody></table>
+<br>
+
+<b>Операції</b>
+<table><tbody>
+<tr><td>Ctrl+T &nbsp;&nbsp;</td><td>Виконати якусь команду</td></tr>
+<tr><td>Ctrl+J</td><td>Вирівняйте абзац або область</td></tr>
+<tr><td>Alt+J</td><td>Вирівняйте весь буфер</td></tr>
+<tr><td>Alt+B</td><td>Виконайте перевірку синтаксису</td></tr>
+<tr><td>Alt+F</td><td>Запустіть засіб форматування/виправлення/упорядкування</td></tr>
+<tr><td>Alt+:</td><td>Початок/зупинка запису макросу</td></tr>
+<tr><td>Alt+;</td><td>Відтворити макрос</td></tr>
+</tbody></table>
+<br>
+
+</td><td>
+
+<b>Пересування</b>
+<table><tbody>
+<tr><td>Ctrl+B &nbsp;&nbsp;</td><td>Один символ назад</td></tr>
+<tr><td>Ctrl+F</td><td>Один символ вперед</td></tr>
+<tr><td>Ctrl+<b>←</b></td><td>Одне слово назад</td></tr>
+<tr><td>Ctrl+<b>→</b></td><td>На одне слово вперед</td></tr>
+<tr><td>Ctrl+A</td><td>Для початку лінії</td></tr>
+<tr><td>Ctrl+E</td><td>До кінця рядка</td></tr>
+<tr><td>Ctrl+P</td><td>Одна лінія</td></tr>
+<tr><td>Ctrl+N</td><td>На один рядок вниз</td></tr>
+<tr><td>Ctrl+<b>↑</b></td><td>До попереднього блоку</td></tr>
+<tr><td>Ctrl+<b>↓</b></td><td>До наступного блоку</td></tr>
+<tr><td>Ctrl+Y</td><td>Одна сторінка вгору</td></tr>
+<tr><td>Ctrl+V</td><td>Одна сторінка вниз</td></tr>
+<tr><td>Alt+\</td><td>До верхньої частини буфера</td></tr>
+<tr><td>Alt+/</td><td>До кінця буфера</td></tr>
+</tbody></table>
+<br>
+
+<b>Особливий рух</b>
+<table><tbody>
+<tr><td>Alt+G &nbsp;&nbsp;&nbsp;</td><td>Перейти до зазначеного рядка</td></tr>
+<tr><td>Alt+]</td><td>Перейти до додаткової дужки</td></tr>
+<tr><td>Alt+<b>↑</b></td><td>Прокрутіть вікно перегляду вгору</td></tr>
+<tr><td>Alt+<b>↓</b></td><td>Прокрутіть вікно перегляду вниз</td></tr>
+<tr><td>Alt+&lt;</td><td>Перейти до попереднього буфера</td></tr>
+<tr><td>Alt+&gt;</td><td>Перейти до наступного буфера</td></tr>
+</tbody></table>
+<br>
+
+<b>Інформація</b>
+<table><tbody>
+<tr><td>Ctrl+C &nbsp;&nbsp;</td><td>Повідомити про положення курсору</td></tr>
+<tr><td>Alt+D</td><td>Звіт про кількість рядків/слів/символів</td></tr>
+<tr><td>Ctrl+G</td><td>Показати довідковий текст</td></tr>
+</tbody></table>
+<br>
+
+<b>різноманітні</b>
+<table><tbody>
+<tr><td>Alt+A</td><td>Увімкніть/вимкніть позначку</td></tr>
+<tr><td>Tab</td><td>Відступ позначеної області</td></tr>
+<tr><td>Shift+Tab &nbsp;&nbsp;</td><td>Скасувати відступ позначеної області</td></tr>
+<tr><td>Alt+V</td><td>Введіть наступне натискання клавіші дослівно</td></tr>
+<tr><td>Alt+N</td><td>Увімкнути/вимкнути номери рядків</td></tr>
+<tr><td>Alt+P</td><td>Увімкнути/вимкнути видимі пробіли/td></tr>
+<tr><td>Alt+X</td><td>Приховання або відображення довідкових ліній</td></tr>
+<tr><td>Ctrl+L</td><td>Оновіть екран</td></tr>
+</tbody></table>
+<br>
+
+</td></tr>
+</tbody></table>
+
+
+
+
+</body></html>
