@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0055)https://www.nano-editor.org/dist/latest/cheatsheet.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Aide-mémoire pour GNU nano</title>
+
+<meta name="description" content="A concise overview of the command shortcuts for nano, the editor, grouped by category.">
+<meta name="keywords" content="cheatsheet, nano, editor, shortcuts, keystrokes, functions, operations, commands">
+<meta name="author" content="Benno Schulenberg">
+</head>
+
+<body>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        .sidenav {
+          height: 100%;
+          width: 200px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #000000;
+          overflow-x: hidden;
+          padding-top: 20px;
+        }
+        
+        .sidenav a {
+          padding: 6px 6px 6px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .main {
+          margin-left: 200px; /* Same as the width of the sidenav */
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        
+        
+        </style>
+        <div class="sidenav">
+          <ul>
+            <a href="index.html">CZ</a>
+            <a href="en.html">EN</a>
+            <a href="sk.html">SK</a>
+            <a href="pl.html">PL</a>
+            <a href="ge.html">DE</a>
+            <a href="ru.html">RU</a>
+            <a href="ukr.html">Ua</a>
+            <a href="fr.html">FR</a>
+            <a href="شبكة.html">شبكة</a>
+            <a href="verification-fr.html">langues vérifiées</a>
+          </ul>
+          </div>
+<br>
+
+<h1 align="center">c'est une traduction non officielle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+<h1 align="center">this is unofficial translation</h1>
+<h3 align="center">Les frappes de l'éditeur et leurs fonctions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+<br>
+
+<table align="center"><tbody>
+<tr><td>
+
+<b>La gestion des fichiers</b>
+<table><tbody>
+<tr><td>Ctrl+S &nbsp;&nbsp;</td><td>Enregistrer le fichier actuel</td></tr>
+<tr><td>Ctrl+O</td><td>Proposer d'écrire le fichier ("Enregistrer sous")</td></tr>
+<tr><td>Ctrl+R</td><td>Insérer un fichier dans le fichier actuel</td></tr>
+<tr><td>Ctrl+X</td><td>Fermer le tampon, quitter Nano</td></tr>
+</tbody></table>
+<br>
+
+<b>Édition</b>
+<table><tbody>
+<tr><td>Ctrl+K &nbsp;&nbsp;</td><td>Couper la ligne actuelle dans le tampon de coupure</td></tr>
+<tr><td>Alt+6</td><td>Copier la ligne actuelle dans le tampon de coupure</td></tr>
+<tr><td>Ctrl+U</td><td>Coller le contenu du tampon de coupure</td></tr>
+<tr><td>Alt+T</td><td>Couper jusqu'à la fin du tampon</td></tr>
+<tr><td>Ctrl+]</td><td>Terminer le mot actuel</td></tr>
+<tr><td>Alt+3</td><td>Commenter/décommenter la ligne/la région</td></tr>
+<tr><td>Alt+U</td><td>Annuler la dernière action</td></tr>
+<tr><td>Alt+E</td><td>Refaire la dernière action annulée</td></tr>
+</tbody></table>
+<br>
+
+<b>Rechercher et remplacer</b>
+<table><tbody>
+<tr><td>Ctrl+Q &nbsp;&nbsp;</td><td>Lancer la recherche en arrière</td></tr>
+<tr><td>Ctrl+W</td><td>Lancer la recherche avancée</td></tr>
+<tr><td>Alt+Q</td><td>Rechercher la prochaine occurrence en arrière</td></tr>
+<tr><td>Alt+W</td><td>Rechercher la prochaine occurrence en avant</td></tr>
+<tr><td>Alt+R</td><td>Démarrer une session de remplacement</td></tr>
+</tbody></table>
+<br>
+
+<b>Effacement</b>
+<table><tbody>
+<tr><td>Ctrl+H</td><td>Supprimer le caractère avant le curseur &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td>Ctrl+D</td><td>Supprimer le caractère sous le curseur</td></tr>
+<tr><td>Alt+Bsp</td><td>Supprimer le mot à gauche</td></tr>
+<tr><td>Ctrl+Del &nbsp;&nbsp;</td><td>Supprimer le mot à droite</td></tr>
+<tr><td>Alt+Del</td><td>Supprimer la ligne actuelle</td></tr>
+</tbody></table>
+<br>
+
+<b>Opérations</b>
+<table><tbody>
+<tr><td>Ctrl+T &nbsp;&nbsp;</td><td>Exécuter une commande</td></tr>
+<tr><td>Ctrl+J</td><td>Justifier le paragraphe ou la région</td></tr>
+<tr><td>Alt+J</td><td>Justifier tout le tampon</td></tr>
+<tr><td>Alt+B</td><td>Exécuter une vérification de la syntaxe</td></tr>
+<tr><td>Alt+F</td><td>Exécuter un formateur/réparateur/arrangeur</td></tr>
+<tr><td>Alt+:</td><td>Démarrer/arrêter l'enregistrement de la macro</td></tr>
+<tr><td>Alt+;</td><td>Rejouer la macro</td></tr>
+</tbody></table>
+<br>
+
+</td><td>
+
+<b>Se déplacer</b>
+<table><tbody>
+<tr><td>Ctrl+B &nbsp;&nbsp;</td><td>Un caractère en arrière</td></tr>
+<tr><td>Ctrl+F</td><td>Un caractère en avant</td></tr>
+<tr><td>Ctrl+<b>←</b></td><td>Un mot à l'envers</td></tr>
+<tr><td>Ctrl+<b>→</b></td><td>One mot en avant</td></tr>
+<tr><td>Ctrl+A</td><td>Au début de la ligne</td></tr>
+<tr><td>Ctrl+E</td><td>Jusqu'à la fin de la ligne</td></tr>
+<tr><td>Ctrl+P</td><td>Une seule file d'attente</td></tr>
+<tr><td>Ctrl+N</td><td>Une ligne plus bas</td></tr>
+<tr><td>Ctrl+<b>↑</b></td><td>Vers le bloc précédent</td></tr>
+<tr><td>Ctrl+<b>↓</b></td><td>Au bloc suivant</td></tr>
+<tr><td>Ctrl+Y</td><td>Une page plus haut</td></tr>
+<tr><td>Ctrl+V</td><td>Une page plus bas/td</tr>
+<tr><td>Alt+\</td><td>Vers le haut du tampon</td></tr>
+<tr><td>Alt+/</td><td>Jusqu'à la fin du tampon</td></tr>
+</tbody></table>
+<br>
+
+<b>Mouvement spécial</b>
+<table><tbody>
+<tr><td>Alt+G &nbsp;&nbsp;&nbsp;</td><td>Aller à la ligne spécifiée</td></tr>
+<tr><td>Alt+]</td><td>Aller à la tranche complémentaire</td></tr>
+<tr><td>Alt+<b>↑</b></td><td>Faire défiler la fenêtre vers le haut</td></tr>
+<tr><td>Alt+<b>↓</b></td><td>Faire défiler la fenêtre vers le bas</td></tr>
+<tr><td>Alt+&lt;</td><td>Passer au tampon précédent</td></tr>
+<tr><td>Alt+&gt;</td><td>Passer au tampon suivant</td></tr>
+</tbody></table>
+<br>
+
+<b>Information</b>
+<table><tbody>
+<tr><td>Ctrl+C &nbsp;&nbsp;</td><td>Signaler la position du curseur</td></tr>
+<tr><td>Alt+D</td><td>Nombre de lignes/mots/caractères du rapport</td></tr>
+<tr><td>Ctrl+G</td><td>Afficher le texte d'aide</td></tr>
+</tbody></table>
+<br>
+
+<b>Divers</b>
+<table><tbody>
+<tr><td>Alt+A</td><td>Activer/désactiver la marque</td></tr>
+<tr><td>Tab</td><td>Région marquée en retrait</td></tr>
+<tr><td>Shift+Tab &nbsp;&nbsp;</td><td>Région marquée sans retrait</td></tr>
+<tr><td>Alt+V</td><td>Entrez la prochaine frappe textuellement</td></tr>
+<tr><td>Alt+N</td><td>Activer/désactiver les numéros de ligne</td></tr>
+<tr><td>Alt+P</td><td>Activer/désactiver les espaces visibles</td></tr>
+<tr><td>Alt+X</td><td>Masquer ou afficher les lignes d'aide</td></tr>
+<tr><td>Ctrl+L</td><td>Actualiser l'écran</td></tr>
+</tbody></table>
+<br>
+
+</td></tr>
+</tbody></table>
+
+
+
+
+</body></html>
