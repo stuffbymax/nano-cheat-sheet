@@ -11,13 +11,13 @@ because not everybody knows english
 
 what languages i will add
 -
-ukrain
+ukrain ✅
 
-romanian
+romanian❌
 
-hungaryan
+hungaryan❌
 
-french
+french🟨
 
 
 verified languages
