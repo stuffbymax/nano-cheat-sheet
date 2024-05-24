@@ -17,7 +17,7 @@ romanian❌
 
 hungaryan❌
 
-french🟨
+french ✅
 
 
 verified languages
