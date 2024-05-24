@@ -10,42 +10,61 @@
 
 <body>
     <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
+         ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
         }
         .sidenav {
-          height: 100%;
-          width: 200px;
-          position: fixed;
-          z-index: 1;
-          top: 0;
-          left: 0;
-          background-color: #000000;
-          overflow-x: hidden;
-          padding-top: 20px;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #000000;
+            overflow-x: hidden;
+            padding-top: 20px;
         }
-        
         .sidenav a {
-          padding: 6px 6px 6px 32px;
-          text-decoration: none;
-          font-size: 25px;
-          color: #818181;
-          display: block;
+            padding: 6px 6px 6px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
         }
-        
         .sidenav a:hover {
-          color: #f1f1f1;
+            color: #f1f1f1;
         }
-        
         .main {
-          margin-left: 200px; /* Same as the width of the sidenav */
+            margin-left: 0;
+            padding: 20px;
         }
-        
-        @media screen and (max-height: 450px) {
-          .sidenav {padding-top: 15px;}
-          .sidenav a {font-size: 18px;}
+        @media screen and (min-width: 600px) {
+            .sidenav {
+                width: 200px;
+            }
+            .main {
+                margin-left: 200px; /* Same as the width of the sidenav */
+            }
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
         }
         
         
@@ -61,16 +80,18 @@
             <a href="ukr.html">Ua</a>
             <a href="fr.html">FR</a>
             <a href="شبكة.html">شبكة</a>
-            <a href="verification ukr.html">перевірка мови</a>
+            
           </ul>
           </div>
 <br>
+<div class="main">
 <h1 align="center">Це неофіційний переклад<h1>
 <h1 align="center">Огляд ярликів nano &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
 <h3 align="center">Клавіші редактора та їх функції &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 <br>
 
 <table align="center"><tbody>
+  <div class="main">
 <tr><td>
 
 <b>Обробка файлів</b>
