@@ -24,13 +24,21 @@ czech ✅
 
 slovak ✅
 
-polish 🟨
+english ✅
+
+polish  ✅
 
 german ❌
 
 arabic ❌
 
-english ✅
+french ❌
+
+russian ❌
+
+ukrainian ❌
+
+
 
 
 meanings
